@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f5e9; 
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul, nav ul li, nav ul li a {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#Contact {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+}
