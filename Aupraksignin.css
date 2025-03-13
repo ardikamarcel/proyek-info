@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f5e9; 
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul, nav ul li, nav ul li a {
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+}
+
+table {
+    margin: 0 auto;
+    background-color: #fff;
+}
